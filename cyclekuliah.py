@@ -14,6 +14,7 @@ class KuliahInformatikaFlow(FlowSpec):
         self.pembayaran_berhasil = True  # Ganti dengan logika pembayaran yang sesuai
         if self.pembayaran_berhasil:
             print("Pembayaran SPP berhasil.")
+
         else:
             print("Pembayaran SPP gagal.")
         self.next(self.pengambilan_mata_kuliah)
